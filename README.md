@@ -1,4 +1,4 @@
-# platzi-music
+# siteSoftware
 
 > App curso Vue.js de Platzi
 
