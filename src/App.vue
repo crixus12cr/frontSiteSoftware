@@ -1,0 +1,48 @@
+<template>
+  <div>
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'app',
+  components: {}
+}
+</script>
+
+<style>
+header {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  ;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #eca023;
+}
+</style>
